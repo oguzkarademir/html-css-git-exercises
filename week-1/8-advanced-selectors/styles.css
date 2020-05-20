@@ -1,6 +1,6 @@
 /* Try different box model properties below */
 div.site-wrapper {
-  width: 500px;
+  width: 600px;
   border: 1px solid lightgrey;
   font-family: Arial, Helvetica, sans-serif;
   background-color: lightgrey;
@@ -20,7 +20,7 @@ div.site-header {
   padding: 5px;
 }
 div.site-footer {
-  margin: 10px;
+  margin: 30px;
   font-size: 12px;
   text-align: center;
 }
@@ -28,10 +28,11 @@ div.site-footer {
   box-shadow: 4px 4px 0 #dba944;
 }
 .message {
-  margin: 10px;
+  height: 80px;
+  margin: 20px;
   padding: 5px;
   background-color: white;
 }
 .message__time {
-  text-align: right;
+  float: right;
 }
